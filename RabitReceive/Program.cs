@@ -32,6 +32,7 @@ class Receive
             };
             channel.BasicConsume(queue: "test-queue", autoAck: true, consumer: consumer);
             Console.WriteLine("2Pack changes");
+            Console.WriteLine("2Pack 2changes");
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
         
